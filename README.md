@@ -2,7 +2,7 @@
 Nuestro proyecto FilesRepoJ&L está diseñado para usuarios que requieren almacenar archivos de manera remota con el fin de tenerlos en un lugar seguro y poder accesarlos cuando los necesitemos.
 Este software permite almacenar cualquier tipo de archivo en el servidor. El cliente debe seleccionar el archivo a subir y el servidor se encargará de asignarle una carpeta para el debido almacenamiento.
 
-Por otra parte, este sistema tambien le permite a los usuarios seleccionar una unica carpeta para que el servidor aloje lo contenido en esa carpeta en tiempo real, cualquier cambio de agregado o borrado de archivos sobre la carpeta seleccionada, se reflejara inmediatamente en el servidor.
+Por otra parte, este sistema también le permite a los usuarios seleccionar una única carpeta para que el servidor aloje lo contenido en esa carpeta en tiempo real, cualquier cambio de agregado o borrado de archivos sobre la carpeta seleccionada, se reflejará inmediatamente en el servidor.
 
 # Pre-requisitos 📋
 Para poder hacer  uso de este Software se debe tener algún IDE de desarrollo(preferiblemente NetBeans), tener acceso a internet pues en este proyecto el servidor maneja una conexión a una base de datos para almacenar la información de cada uno de los clientes, el proyecto está realizado en código Java por lo que se debe tener toda la configuración para poder correr la aplicación en el dispositivo, pude utilizar una máquina virtual con Java si cuenta cond distintos sistemas operativos y debe contar con almacenamiento suficiente para que el servidor aloje los archivos enviados por los clientes.
@@ -43,7 +43,7 @@ Si se desea ver los archivos que se encuentran en el servidor, el usuario selecc
 
 ## Por otra parte, si lo que se quiere es tenerle una carpeta fija al cliente y que el servidor contenga los mismos archivos de esta carpeta, entonces:
 
-El proceso de ingreso al sistema es el mismo del que se menciono en el punto anterior; pero, despues de este proceso de autenticacion, el usuario debe seleccionar  la carpeta que quiere que el servidor contenga los archivos subidos. Al seleccionar esta carpeta, si contiene archivos previamente subidos, estos se guardaran automaticamente en el servidor y si se encuentra vacia, esta se mantendra vacia tambien en el servidor. Al ir agregando archivos a la carpeta seleccionada por el cliente, en el servidor apareceran estaos mismos archivos y si se borrar del cliente, tambien se borraran del servidor.
+El proceso de ingreso al sistema es el mismo del que se menciono en el punto anterior; pero, después de este proceso de autenticacién, el usuario debe seleccionar  la carpeta que quiere que el servidor contenga los archivos subidos. Al seleccionar esta carpeta, si contiene archivos previamente subidos, estos se guardarén automaticamente en el servidor y si se encuentra vacía, esta se mantendrá vacía también en el servidor. Al ir agregando archivos a la carpeta seleccionada por el cliente, en el servidor aparecerán estos mismos archivos y si se borran del cliente, tambien se borrarán del servidor.
 
 
 # Contruído con 🛠️
