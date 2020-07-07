@@ -2,7 +2,7 @@
 Nuestro proyecto FilesRepoJ&L está diseñado para usuarios que requieren almacenar archivos de manera remota con el fin de tenerlos en un lugar seguro y poder accesarlos cuando los necesitemos.
 Este software permite almacenar cualquier tipo de archivo en el servidor. El cliente debe seleccionar el archivo a subir y el servidor se encargará de asignarle una carpeta para el debido almacenamiento.
 
-Por otra parte, este ssistema tambien le permite a los usuarios seleccionar una unica carpeta para que el servidor aloje lo contenido en esa carpetra en tiempo real, cualquier cambio de agregado o borrado de archivos sobre la carpeta seleccionada, se reflejara inmediatamente en el servidor.
+Por otra parte, este sistema tambien le permite a los usuarios seleccionar una unica carpeta para que el servidor aloje lo contenido en esa carpeta en tiempo real, cualquier cambio de agregado o borrado de archivos sobre la carpeta seleccionada, se reflejara inmediatamente en el servidor.
 
 # Pre-requisitos 📋
 Para poder hacer  uso de este Software se debe tener algún IDE de desarrollo(preferiblemente NetBeans), tener acceso a internet pues en este proyecto el servidor maneja una conexión a una base de datos para almacenar la información de cada uno de los clientes, el proyecto está realizado en código Java por lo que se debe tener toda la configuración para poder correr la aplicación en el dispositivo, pude utilizar una máquina virtual con Java si cuenta cond distintos sistemas operativos y debe contar con almacenamiento suficiente para que el servidor aloje los archivos enviados por los clientes.
